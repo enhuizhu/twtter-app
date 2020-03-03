@@ -1,0 +1,36 @@
+.App {
+  .item {
+    border: solid 1px gray;
+    margin-bottom: 20px;
+    padding: 5px;
+
+    .avatar, .text-info {
+      float: left;
+    }
+
+    .avatar {
+      img {
+        border-radius: 50%;
+        width: 60px;
+      }
+
+      margin-right: 10px;
+    }
+
+    .text-info {
+      width: calc(100% - 71px);
+      
+      .username {
+        font-weight: bold;
+      }
+
+      .feed-info {
+        padding: 10px 10px 10px 0;
+      }
+    }
+  }
+
+  .clear {
+    clear: both;
+  }
+}
